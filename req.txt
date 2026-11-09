@@ -1,0 +1,14 @@
+# Smart car voice pipeline (laptop side)
+# STT.py
+SpeechRecognition>=3.17
+sounddevice>=0.5
+numpy>=2.0
+# AI.py (next)
+requests>=2.32
+python-dotenv>=1.0
+# action.py (BLE link to the SPIKE Prime hub)
+pybricksdev>=2.0
+bleak>=0.22
+# TTS.py (spoken feedback on the laptop)
+gtts>=2.5
+miniaudio>=1.60
